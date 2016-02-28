@@ -33,7 +33,7 @@ First we get all distinct subjects.</br>
 And create a new data frame to store the data we need called "finaldata".</br>
 Here we need a temperory variable called "cnt" indicating which row we are working with.</br>
 And we loop through every distinct subject and activity.</br>
-Copy the data to a temperory variable, paste is to "finaldata" as the following code"</br>
+Copy the data to a temperory variable, paste is to "finaldata" as the following code</br>
     tmp <- cleaneddata[cleaneddata$SubjectID==i & cleaneddata$Activity==activities[j, 2], ]</br>
     finaldata[cnt, 3:numCols] <- colMeans(tmp[, 3:numCols])</br>
 Then we move to the next row.</br>
