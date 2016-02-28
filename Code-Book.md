@@ -16,7 +16,7 @@ label: Activities' ID after merging</br>
 cleaneddata: Cleaned data after step 4</br>
 ## Temporory variables
 idx: Indexs of the locations relating with mean or standard deviation</br>
-distinctsubjects: list of distinct subjects</br>
+distinctsubjects: List of distinct subjects</br>
 numdistinctsubjects: The number of distinct subjects. Used for the loop.</br>
 numactivities: The number of distinct activities. Used for the loop.</br>
 numCols: The number of columns should appear in the final data. Used for the loop.</br>
